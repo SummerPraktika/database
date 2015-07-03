@@ -1,0 +1,16 @@
+c:\users\anton\documents\visual studio 2013\Projects\SQLite\SQLite\bin\Debug\SQLite.exe.config
+c:\users\anton\documents\visual studio 2013\Projects\SQLite\SQLite\bin\Debug\SQLite.exe
+c:\users\anton\documents\visual studio 2013\Projects\SQLite\SQLite\bin\Debug\SQLite.pdb
+c:\users\anton\documents\visual studio 2013\Projects\SQLite\SQLite\bin\Debug\EntityFramework.dll
+c:\users\anton\documents\visual studio 2013\Projects\SQLite\SQLite\bin\Debug\SQLite.Designer.dll
+c:\users\anton\documents\visual studio 2013\Projects\SQLite\SQLite\bin\Debug\System.Data.SQLite.dll
+c:\users\anton\documents\visual studio 2013\Projects\SQLite\SQLite\bin\Debug\System.Data.SQLite.EF6.dll
+c:\users\anton\documents\visual studio 2013\Projects\SQLite\SQLite\bin\Debug\System.Data.SQLite.Linq.dll
+c:\users\anton\documents\visual studio 2013\Projects\SQLite\SQLite\bin\Debug\SQLite.Designer.pdb
+c:\users\anton\documents\visual studio 2013\Projects\SQLite\SQLite\obj\Debug\SQLite.csprojResolveAssemblyReference.cache
+c:\users\anton\documents\visual studio 2013\Projects\SQLite\SQLite\obj\Debug\SQLite.exe
+c:\users\anton\documents\visual studio 2013\Projects\SQLite\SQLite\obj\Debug\SQLite.pdb
+C:\Users\Anton\documents\visual studio 2013\Projects\SQLite\SQLite\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Anton\documents\visual studio 2013\Projects\SQLite\SQLite\bin\Debug\EntityFramework.xml
+C:\Users\Anton\documents\visual studio 2013\Projects\SQLite\SQLite\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Anton\documents\visual studio 2013\Projects\SQLite\SQLite\bin\Debug\System.Data.SQLite.xml
