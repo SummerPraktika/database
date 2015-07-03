@@ -15,18 +15,31 @@ namespace SQLite
     {
         static void Main(string[] args)
         {
+            //Add record
             using (var db = new MyDBContext())
             {
-                db.Templetes.Add(new Templete { Name = "Test" });
+                db.Templetes.Add(new Templete { Name = "Test111" });
+                db.Templetes.Add(new Templete { Name = "Test11" });
                 db.SaveChanges();
             }
-            using (var db = new MyDBContext())
-            {
-                foreach (var note in db.Templetes)
+            //delete record from id
+                using (var db = new MyDBContext())
                 {
-                    Console.WriteLine("Template {0} = {1}", note.Id, note.Name);
-                }
+                 var del = db.Templetes.SingleOrDefault(x => x.Id == 1);
+                 if (del != null)
+                 {
+                     db.Templetes.Remove(del);
+                     db.SaveChanges();
+                 }
             }
+            //Writing
+                using (var db = new MyDBContext())
+                {
+                    foreach (var templete in db.Templetes)
+                    {
+                        Console.WriteLine("Template {0} = {1}", templete.Id, templete.Name);
+                    }
+                }
             Console.ReadKey();
         }
         public class Templete
