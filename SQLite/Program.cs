@@ -32,6 +32,19 @@ namespace SQLite
                      db.SaveChanges();
                  }
             }
+            //edit record
+                using (var db = new MyDBContext())
+                {
+                    var edit = db.Templetes.SingleOrDefault(x => x.Id == 10);
+                    edit.Name = "UpdateName";
+                    db.SaveChanges();
+                }
+            //find
+                using (var db = new MyDBContext())
+                {
+                    var find = db.Templetes.Where(x => x.Name == "UpdateName").FirstOrDefault();
+                    Console.WriteLine("Find lines Id: " + find.Id);
+                }
             //Writing
                 using (var db = new MyDBContext())
                 {
